@@ -27,11 +27,12 @@
 
 
 <!-- Firebase stuff -->
-var apiKey = '<%= process.env.API_KEY %>';
+<script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
 
 
 <script type="text/javascript">
-    var apiKey = '<%= process.env.API_KEY %>';
+ var apiKey = '<%= process.env.API_KEY %>';
+ console.log(apiKey);
  // Initialize Firebase
  var config = {
      apiKey: apiKey,
